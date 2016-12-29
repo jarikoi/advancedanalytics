@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+import sys
 from collections import namedtuple
 Item = namedtuple("Item", ['index', 'value', 'weight'])
 
@@ -38,6 +39,7 @@ class optResult:
 # items = items available, weight, value and index
 # i = total number of items in original problem
 def compute_o(i_c,k,items,i):
+    #sys.stdout.write(str(i_c)+"|")
     #which items where taken
     if (i_c == 0):
         return optResult(i)
