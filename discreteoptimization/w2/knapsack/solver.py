@@ -1,9 +1,19 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+import time
 import sys
 from collections import namedtuple
 Item = namedtuple("Item", ['index', 'value', 'weight'])
+timelimit=2400
+optimal=1
+
+def setNonOptimal():
+    global optimal 
+    optimal = 0
+
+def setOptimal():
+    global optimal 
+    optimal = 1
 
 def solve_it(input_data):
     # Modify this code to run your optimization algorithm
@@ -13,7 +23,6 @@ def solve_it(input_data):
     firstLine = lines[0].split()
     item_count = int(firstLine[0])
     capacity = int(firstLine[1])
-
     items = []
 
     for i in range(1, item_count+1):
@@ -32,23 +41,28 @@ class optResult:
     def __init__(self,i):
         self.taken=[0]*i
         self.value=0
+#$        self.optimal=1 #1 is optimal, 0 is non optimal
 
 #function for computing optimal solution
 # number of i_c = items in current computattion
 # k capacity
 # items = items available, weight, value and index
 # i = total number of items in original problem
-def compute_o(i_c,k,items,i):
+def compute_o(i_c,k,items,i,start_time):
     #sys.stdout.write(str(i_c)+"|")
     #which items where taken
     if (i_c == 0):
         return optResult(i)
+    elif (time.time()-start_time > timelimit):
+        r= optResult(i)
+        setNonOptimal()
+        return r
     else:
         # if we can fit this item
         if (items[0].weight <= k):
             # compute on rest of list
-            o1=compute_o(i_c-1,k,items[1:],i)
-            o2=compute_o(i_c-1,k-items[0].weight,items[1:],i)
+            o1=compute_o(i_c-1,k,items[1:],i,start_time)
+            o2=compute_o(i_c-1,k-items[0].weight,items[1:],i,start_time)
             o2.value=o2.value+items[0].value
             #print indent(i)+"i_c = " + str(i_c)
             #print indent(i)+"items.len = " + str(len(items))
@@ -63,15 +77,15 @@ def compute_o(i_c,k,items,i):
                 return o1
         else:
             # if this item can not fit
-            o=compute_o(i_c-1,k,items[1:],i)
+            o=compute_o(i_c-1,k,items[1:],i,start_time)
             return o
     
 
 def solve_it2(item_count2,capacity2,items2):
-    result = compute_o(item_count2,capacity2,items2,item_count2)
+    result = compute_o(item_count2,capacity2,items2,item_count2,time.time())
     #print "finaltaken = " + str(result.taken)
     # prepare the solution in the specified output format
-    output_data = str(result.value) + ' ' + str(1) + '\n'
+    output_data = str(result.value) + ' ' + str(optimal) + '\n'
     output_data += ' '.join(map(str, result.taken))
     return output_data
 
