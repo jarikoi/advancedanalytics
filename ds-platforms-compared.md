@@ -9,6 +9,7 @@
 |  **A/B Testing** | [Sagemaker](https://aws.amazon.com/blogs/machine-learning/a-b-testing-ml-models-in-production-using-amazon-sagemaker/) | --- | [Controlled Rollout](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service#deploy-models-to-aks-using-controlled-rollout-preview) | --- | --- |
 |  **Model Serving** | [Sagemaker](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html) | [AI Platform](https://cloud.google.com/ai-platform) | [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where) | [MLFlow Model Serving](https://databricks.com/blog/2020/06/25/announcing-mlflow-model-serving-on-databricks.html) | DMP |
 |  **AutoML** | [Autopilot](https://aws.amazon.com/sagemaker/autopilot/) | [Cloud AutoML](https://cloud.google.com/automl) | [AutomatedML](https://azure.microsoft.com/en-us/services/machine-learning/automatedml/) | --- | Auto-RED |
+|  **xAI** | --- | --- | --- | --- | xAI Tookit  |
 |  **Notebooks** | [Sagemaker Notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) | [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) | [Microsoft Azure Notebooks](https://notebooks.azure.com/) | [Notebooks](https://docs.databricks.com/notebooks/index.html) | Analytics Workbench |
 |  **Decisions** | --- | --- | --- | --- | Decision Modeler |
 |  **Constraint Programmning** | --- | OR-Tools | --- | --- | Xpress |
