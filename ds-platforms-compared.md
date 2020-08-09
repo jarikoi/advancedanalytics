@@ -1,5 +1,5 @@
-|   | ![enter image description here](https://i.imgur.com/O71cG5j.png) | ![enter image description here](https://i.imgur.com/JtbBgjS.png) | ![enter image description here](https://i.imgur.com/ABbuUIH.png%5B/img%5D) | ![enter image description here](https://i.imgur.com/76KNmta.png)|
-| --- | --- | --- | --- | --- |
+|   | ![enter image description here](https://i.imgur.com/O71cG5j.png) | ![enter image description here](https://i.imgur.com/JtbBgjS.png) | ![enter image description here](https://i.imgur.com/ABbuUIH.png%5B/img%5D) | ![enter image description here](https://i.imgur.com/76KNmta.png)| ![enter image description here](https://www.fico.com/sites/default/files/fico-logo-white-small.png)| 
+| --- | --- | --- | --- | --- | --- |
 |  **Features** | **AWS** | **GCP** | **Azure** | **Databricks** | **FICO Platform** |
 |  **Data pipeline** | [Data Pipeline](https://aws.amazon.com/datapipeline/) | [Dataflow](https://cloud.google.com/dataflow) | [Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/introduction) | Spark | Data Pipeline, DMP-S |
 |  **Feature Store** | --- | --- | --- | --- | Feature Store |
