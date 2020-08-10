@@ -16,5 +16,7 @@
 |  **Linear and non-linear optimization** [^2] | --- | OR-Tools | --- | --- | Xpress |
 
 This is based on a comparison described here: https://towardsdatascience.com/end-to-end-machine-learning-platforms-compared-c530d626151b
+
 [^1]: Internal Alpha.
+
 [^2]: Added by Jari.
