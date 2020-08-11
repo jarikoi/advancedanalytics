@@ -2,7 +2,7 @@
 | --- | --- | --- | --- | --- | --- |
 |  **Features** | **AWS** | **GCP** | **Azure** | **Databricks** | **FICO Platform** |
 |  **Data pipeline** | [Data Pipeline](https://aws.amazon.com/datapipeline/) | [Dataflow](https://cloud.google.com/dataflow) | [Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/introduction) | Spark | Data Pipeline, DMP-S |
-|  **Feature Store** | --- | --- | --- | --- | Feature Store |
+|  **Feature Store** | --- | --- | --- | --- | [Feature Store] (https://www.fico.com/en/platform)|
 |  **Model Monitoring** | [Model Monitor](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html) | --- | [Azure Monitor](https://docs.microsoft.com/en-us/azure/machine-learning/monitor-azure-machine-learning) | --- | Decision Central |
 |  **Experiment Management** | [SageMaker Experiments](https://docs.aws.amazon.com/sagemaker/latest/dg/experiments.html#exp-mgmt-track) | --- | [Azure Machine Learning SDK](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-mlflow) | [MLFlow Tracking](https://www.mlflow.org/docs/latest/tracking.html) | --- |
 |  **Model versioning** | [Production Variants](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-now-comes-with-new-capabilities-for-accelerating-machine-learning-experimentation/) | [Versions](https://cloud.google.com/ai-platform/training/docs/projects-models-versions-jobs) | [Model registration](https://docs.microsoft.com/en-us/azure/machine-learning/concept-model-management-and-deployment#register-package-and-deploy-models-from-anywhere) | [MLflow Model Registry](https://www.mlflow.org/docs/latest/model-registry.html) | --- |
@@ -10,10 +10,11 @@
 |  **Model Serving** | [Sagemaker](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html) | [AI Platform](https://cloud.google.com/ai-platform) | [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where) | [MLFlow Model Serving](https://databricks.com/blog/2020/06/25/announcing-mlflow-model-serving-on-databricks.html) | [DMP](https://www.fico.com/en/platform)|
 |  **AutoML**  [^2]| [Autopilot](https://aws.amazon.com/sagemaker/autopilot/) | [Cloud AutoML](https://cloud.google.com/automl) | [AutomatedML](https://azure.microsoft.com/en-us/services/machine-learning/automatedml/) | --- | Auto-RED[^1] |
 |  **xAI**[^2]| --- | --- | --- | --- | xAI Tookit  |
-|  **Notebooks** | [Sagemaker Notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) | [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) | [Microsoft Azure Notebooks](https://notebooks.azure.com/) | [Notebooks](https://docs.databricks.com/notebooks/index.html) | Analytics Workbench |
-|  **Decisions**[^2] | --- | --- | --- | --- | Decision Modeler |
-|  **Constraint Programmning**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | Xpress |
-|  **Linear and non-linear optimization**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | Xpress |
+|  **Notebooks** | [Sagemaker Notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) | [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) | [Microsoft Azure Notebooks](https://notebooks.azure.com/) | [Notebooks](https://docs.databricks.com/notebooks/index.html) | [Analytics Workbench] (https://www.fico.com/en/products/fico-analytics-workbench) |
+|  **Visual Scorecards & Decision Trees** | --- | --- | --- | --- | [Analytics Workbench] (https://www.fico.com/en/products/fico-analytics-workbench) |
+|  **Decisions**[^2] | --- | --- | --- | --- | [Decision Modeler] (https://www.fico.com/en/products/fico-decision-modeler) |
+|  **Constraint Programmning**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress (https://www.fico.com/en/products/optimization) |
+|  **Linear and non-linear optimization**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress (https://www.fico.com/en/products/optimization) |
 
 This is based on a comparison described here: https://towardsdatascience.com/end-to-end-machine-learning-platforms-compared-c530d626151b
 
