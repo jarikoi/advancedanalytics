@@ -1,6 +1,6 @@
 |   | ![enter image description here](https://i.imgur.com/O71cG5j.png) | ![enter image description here](https://i.imgur.com/JtbBgjS.png) | ![enter image description here](https://i.imgur.com/ABbuUIH.png%5B/img%5D) | ![enter image description here](https://i.imgur.com/76KNmta.png)| ![enter image description here](images/FICO.png)|
 | --- | --- | --- | --- | --- | --- |
-|  **Features** | **AWS** | **GCP** | **Azure** | **Databricks** | **FICO Platform** |
+|  **Features** | **AWS** | **GCP** | **Azure** | **Databricks** | [**FICO Platform**] (https://www.fico.com/en/platform) |
 |  **Data pipeline** | [Data Pipeline](https://aws.amazon.com/datapipeline/) | [Dataflow](https://cloud.google.com/dataflow) | [Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/introduction) | Spark | Data Pipeline, DMP-S |
 |  **Feature Store** | --- | --- | --- | --- | Feature Store |
 |  **Model Monitoring** | [Model Monitor](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html) | --- | [Azure Monitor](https://docs.microsoft.com/en-us/azure/machine-learning/monitor-azure-machine-learning) | --- | Decision Central |
@@ -12,8 +12,8 @@
 |  **xAI**[^2]| --- | --- | --- | --- | xAI Tookit  |
 |  **Notebooks** | [Sagemaker Notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) | [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) | [Microsoft Azure Notebooks](https://notebooks.azure.com/) | [Notebooks](https://docs.databricks.com/notebooks/index.html) | Analytics Workbench |
 |  **Decisions**[^2] | --- | --- | --- | --- | Decision Modeler |
-|  **Constraint Programmning**[^2] | --- | OR-Tools | --- | --- | Xpress |
-|  **Linear and non-linear optimization**[^2] | --- | OR-Tools | --- | --- | Xpress |
+|  **Constraint Programmning**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | Xpress |
+|  **Linear and non-linear optimization**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | Xpress |
 
 This is based on a comparison described here: https://towardsdatascience.com/end-to-end-machine-learning-platforms-compared-c530d626151b
 
