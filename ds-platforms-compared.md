@@ -10,9 +10,9 @@
 |  **Model Serving** | [Sagemaker](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html) | [AI Platform](https://cloud.google.com/ai-platform) | [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where) | [MLFlow Model Serving](https://databricks.com/blog/2020/06/25/announcing-mlflow-model-serving-on-databricks.html) | [DMP](https://www.fico.com/en/platform)|
 |  **AutoML**  [^2]| [Autopilot](https://aws.amazon.com/sagemaker/autopilot/) | [Cloud AutoML](https://cloud.google.com/automl) | [AutomatedML](https://azure.microsoft.com/en-us/services/machine-learning/automatedml/) | --- | Auto-RED[^1] |
 |  **xAI**[^2]| --- | --- | --- | --- | xAI Tookit  |
-|  **Notebooks** | [Sagemaker Notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) | [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) | [Microsoft Azure Notebooks](https://notebooks.azure.com/) | [Notebooks](https://docs.databricks.com/notebooks/index.html) | [Analytics Workbench] (https://www.fico.com/en/products/fico-analytics-workbench) |
-|  **Visual Scorecards & Decision Trees** | --- | --- | --- | --- | [Analytics Workbench] (https://www.fico.com/en/products/fico-analytics-workbench) |
-|  **Decisions**[^2] | --- | --- | --- | --- | [Decision Modeler] (https://www.fico.com/en/products/fico-decision-modeler) |
+|  **Notebooks** | [Sagemaker Notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) | [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) | [Microsoft Azure Notebooks](https://notebooks.azure.com/) | [Notebooks](https://docs.databricks.com/notebooks/index.html) | [Analytics Workbench](https://www.fico.com/en/products/fico-analytics-workbench) |
+|  **Visual Scorecards & Decision Trees** | --- | --- | --- | --- | [Analytics Workbench](https://www.fico.com/en/products/fico-analytics-workbench) |
+|  **Decisions**[^2] | --- | --- | --- | --- | [Decision Modeler](https://www.fico.com/en/products/fico-decision-modeler) |
 |  **Constraint Programmning**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress (https://www.fico.com/en/products/optimization) |
 |  **Linear and non-linear optimization**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress (https://www.fico.com/en/products/optimization) |
 
