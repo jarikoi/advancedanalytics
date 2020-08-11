@@ -15,7 +15,7 @@
 |  **Decisions**[^2] | --- | --- | --- | --- | [Decision Modeler](https://www.fico.com/en/products/fico-decision-modeler) |
 |  **Constraint Programmning** [^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress](https://www.fico.com/en/products/optimization) |
 |  **Linear and non-linear optimization** [^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress](https://www.fico.com/en/products/optimization) |
-|  **Deployment Options** [^2] | Cloud SaaS Only | Cloud SaaS Only   | Cloud SaaS Only  | Cloud SaaS and Multi Cloud | CLoud SaaS, Multi Cloud, and On-premise) |
+|  **Deployment Options** [^2] | Cloud SaaS Only | Cloud SaaS Only   | Cloud SaaS Only  | Cloud SaaS and Multi Cloud | Cloud SaaS, Multi Cloud, and On-premise) |
 
 This is based on a comparison described here: https://towardsdatascience.com/end-to-end-machine-learning-platforms-compared-c530d626151b
 
