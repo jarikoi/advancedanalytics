@@ -13,13 +13,13 @@
 |  **Notebooks** | [Sagemaker Notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) | [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) | [Microsoft Azure Notebooks](https://notebooks.azure.com/) | [Notebooks](https://docs.databricks.com/notebooks/index.html) | [Analytics Workbench](https://www.fico.com/en/products/fico-analytics-workbench) |
 |  **Visual Scorecards & Decision Trees** | --- | --- | --- | --- | [Analytics Workbench](https://www.fico.com/en/products/fico-analytics-workbench) |
 |  **Decisions**[^2] | --- | --- | --- | --- | [Decision Modeler](https://www.fico.com/en/products/fico-decision-modeler) |
-|  **Constraint Programmning**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress](https://www.fico.com/en/products/optimization) |
-|  **Linear and non-linear optimization**[^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress](https://www.fico.com/en/products/optimization) |
+|  **Constraint Programmning** [^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress](https://www.fico.com/en/products/optimization) |
+|  **Linear and non-linear optimization** [^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress](https://www.fico.com/en/products/optimization) |
 
-This is based on a comparison described here: https://towardsdatascience.com/end-to-end-machine-learning-platforms-compared-c530d626151b
+This is based on a [^2] comparison described here: https://towardsdatascience.com/end-to-end-machine-learning-platforms-compared-c530d626151b
 
-[^1]: Internal Alpha.
+[^1]:Internal Alpha.
 
-[^2]: Added by Jari.
+[^2]:Added by Jari.
 
 
