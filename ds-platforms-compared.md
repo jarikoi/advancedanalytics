@@ -11,7 +11,7 @@
 |  **AutoML**  [^2]| [Autopilot](https://aws.amazon.com/sagemaker/autopilot/) | [Cloud AutoML](https://cloud.google.com/automl) | [AutomatedML](https://azure.microsoft.com/en-us/services/machine-learning/automatedml/) | --- | Auto-RED[^1] |
 |  **xAI**[^2]| --- | [What-if-tool](https://cloud.google.com/blog/products/ai-machine-learning/introducing-the-what-if-tool-for-cloud-ai-platform-models) | --- | --- | [xAI Tookit](https://www.fico.com/en/latest-thinking/white-paper/xai-toolkit-practical-explainable-machine-learning)  |
 |  **Notebooks** | [Sagemaker Notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/nbi.html) | [AI Platform Notebooks](https://cloud.google.com/ai-platform-notebooks) | [Microsoft Azure Notebooks](https://notebooks.azure.com/) | [Notebooks](https://docs.databricks.com/notebooks/index.html) | [Analytics Workbench](https://www.fico.com/en/products/fico-analytics-workbench) |
-|  **Visual Scorecards & Decision Trees** | --- | --- | --- | --- | [Analytics Workbench](https://www.fico.com/en/products/fico-analytics-workbench) |
+|  **Visual Scorecards & Decision Trees**[^2] | --- | --- | --- | --- | [Analytics Workbench](https://www.fico.com/en/products/fico-analytics-workbench) |
 |  **Decisions**[^2] | --- | --- | --- | --- | [Decision Modeler](https://www.fico.com/en/products/fico-decision-modeler) |
 |  **Constraint Programmning** [^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress](https://www.fico.com/en/products/optimization) |
 |  **Linear and non-linear optimization** [^2] | --- | [OR-Tools](https://developers.google.com/optimization/examples) | --- | --- | [Xpress](https://www.fico.com/en/products/optimization) |
