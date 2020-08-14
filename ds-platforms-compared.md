@@ -3,7 +3,7 @@
 |  **Features** | **AWS** | **GCP** | **Azure** | **Databricks** | **FICO Platform** |
 |  **Data pipeline** | [Data Pipeline](https://aws.amazon.com/datapipeline/) | [Dataflow](https://cloud.google.com/dataflow) | [Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/introduction) | Spark | Data Pipeline, DMP-S |
 |  **Feature Store** | --- | --- | --- | --- | [Feature Store](https://www.fico.com/en/platform)|
-|  **Model Monitoring** | [Model Monitor](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html) | --- | [Azure Monitor](https://docs.microsoft.com/en-us/azure/machine-learning/monitor-azure-machine-learning) | --- | Decision Central |
+|  **Model Monitoring** | [Model Monitor](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html) | --- | [Azure Monitor](https://docs.microsoft.com/en-us/azure/machine-learning/monitor-azure-machine-learning) | --- | Decision Central[^3] |
 |  **Experiment Management** | [SageMaker Experiments](https://docs.aws.amazon.com/sagemaker/latest/dg/experiments.html#exp-mgmt-track) | --- | [Azure Machine Learning SDK](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-mlflow) | [MLFlow Tracking](https://www.mlflow.org/docs/latest/tracking.html) | --- |
 |  **Model versioning** | [Production Variants](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-now-comes-with-new-capabilities-for-accelerating-machine-learning-experimentation/) | [Versions](https://cloud.google.com/ai-platform/training/docs/projects-models-versions-jobs) | [Model registration](https://docs.microsoft.com/en-us/azure/machine-learning/concept-model-management-and-deployment#register-package-and-deploy-models-from-anywhere) | [MLflow Model Registry](https://www.mlflow.org/docs/latest/model-registry.html) | --- |
 |  **A/B Testing** | [Sagemaker](https://aws.amazon.com/blogs/machine-learning/a-b-testing-ml-models-in-production-using-amazon-sagemaker/) | --- | [Controlled Rollout](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service#deploy-models-to-aks-using-controlled-rollout-preview) | --- | --- |
@@ -20,7 +20,7 @@
 This is based on a comparison described here: https://towardsdatascience.com/end-to-end-machine-learning-platforms-compared-c530d626151b
 
 [^1]:Internal Alpha.
-
 [^2]:Added by Jari.
+[^3]:On-premise offering only.
 
 
