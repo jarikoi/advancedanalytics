@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+#Example calls
+#docker-compose exec mids curl -X POST "http://localhost:5000/logout?id=6"
+#dompose exec mids curl -X POST "http://localhost:5000/purchase_bomb"
+#docker-compose exec mids curl -X POST "http://localhost:5000/login?id=6"
+#
 import json
 from kafka import KafkaProducer
 from flask import Flask, request
