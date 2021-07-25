@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/bash
+# run with bash ./generate.sh
 NOOFUSERS=100
 ENDPOINTS=4
 NOOFBTYPE=3
